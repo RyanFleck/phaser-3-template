@@ -1,23 +1,6 @@
 import Phaser from 'phaser';
 import logoImg from './assets/logo.png';
 
-const config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    scene: {
-        preload: preload,
-        create: create,
-    },
-};
-
-const game = new Phaser.Game(config);
-
-game.onVisible = () => {
-    console.log('Game is visible.');
-};
-
 function preload() {
     this.load.image('logo', logoImg);
 }
@@ -34,3 +17,16 @@ function create() {
         loop: -1,
     });
 }
+
+const config = {
+    type: Phaser.AUTO,
+    parent: 'phaser-example',
+    width: 800,
+    height: 600,
+    scene: {
+        preload,
+        create,
+    },
+};
+
+const game = new Phaser.Game(config);
