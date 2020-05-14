@@ -1,6 +1,6 @@
 # Phaser 3 Project
 
-Using Template: <https://github.com/photonstorm/phaser3-project-template>
+This is an updated version of the official Phaser 3 Template, source at <https://github.com/photonstorm/phaser3-project-template>
 
 # Template Docs
 
