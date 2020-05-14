@@ -9,7 +9,7 @@
         "jest/prefer-to-have-length": "warn",
         "jest/valid-expect": "error",
         "no-console": 0,
-        "indent": [4, "space"]
+        "indent": ["warn", 4]
     },
     "env": {
         "jest/globals": true
